@@ -13,6 +13,7 @@ const PaymentForm = () => {
         month: '',
         shift: '',
     });
+    const url = process.env.REACT_APP_BACKEND_URL;
     const [paymentStatus, setPaymentStatus] = useState(false);
 const CustomDropdown = ({ id, name, value, options, onChange, required }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +24,7 @@ const CustomDropdown = ({ id, name, value, options, onChange, required }) => {
         className="relative z-10 p-2 border rounded-md shadow-sm cursor-pointer flex items-center justify-between"
         onClick={() => setIsOpen(!isOpen)}
       >
-        <span className="text-gray-800">{value || 'Select'}</span>
+        <span className="text-gray-800">{value || 'select'}</span>
         <svg
           className={`w-4 h-4 ml-2 transform ${isOpen ? 'rotate-180' : 'rotate-0'}`}
           fill="none"
@@ -77,7 +78,7 @@ const CustomDropdown = ({ id, name, value, options, onChange, required }) => {
 
         try {
             // Assuming your backend endpoint is 'http://localhost:yourPortNumber/user'
-            const response = await axios.post('http://localhost:8000/user', formData);
+            const response = await axios.post(`${url}/user`, formData);
             const responseData = response.data;
 
             // Mock payment function
@@ -187,7 +188,7 @@ const CustomDropdown = ({ id, name, value, options, onChange, required }) => {
   value={formData.shift}
   onChange={handleChange}
   options={[
-    { value: '', label: 'Select a Shift' },
+    { value: '', label: 'Select a Batch' },
     { value: '6-7AM', label: '6-7AM' },
     { value: '7-8AM', label: '7-8AM' },
     { value: '8-9AM', label: '8-9AM' },
