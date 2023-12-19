@@ -45,7 +45,7 @@ The Backend uses the following libraries
 
 <ul>
 <li>Express</li>
-<li>Mongoose/li>
+<li>Mongoose</li>
 <li>Nodemon</li>
 </ul>
 
