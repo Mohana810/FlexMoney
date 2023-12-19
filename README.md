@@ -62,4 +62,4 @@ The ER Diagram and Table for the Database are as follows:
 
 <a href="https://drive.google.com/uc?export=view&id=1VIn0DezG8RrANvRsYoP98Au9A8QFoYn6"><img src="https://drive.google.com/uc?export=view&id=1VIn0DezG8RrANvRsYoP98Au9A8QFoYn6" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
-<a href="https://drive.google.com/uc?export=view&id=1zTzfPPewt10C0em2jRcHPYfGZQcyYuNK"><img src="https://drive.google.com/uc?export=view&id=1zTzfPPewt10C0em2jRcHPYfGZQcyYuNK" style="width: 650px; max-width: 50%; height: auto" title="Click to enlarge picture" />
+<a href="https://drive.google.com/uc?export=view&id=1zTzfPPewt10C0em2jRcHPYfGZQcyYuNK"><img src="https://drive.google.com/uc?export=view&id=1zTzfPPewt10C0em2jRcHPYfGZQcyYuNK" style="width: 150px; max-width: 50%; height: auto" title="Click to enlarge picture" />
