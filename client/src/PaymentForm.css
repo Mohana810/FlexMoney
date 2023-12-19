@@ -1,0 +1,19 @@
+.formText{
+	text-align: center;
+	align-items: center;
+}
+
+.informText{
+    color: red;
+    text-decoration: red;
+    font-size: 12px;
+}
+.formbg{
+    background: url('../public/bg1.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.submitbtn{
+    width: 100%;
+}

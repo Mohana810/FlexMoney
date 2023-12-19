@@ -1,0 +1,26 @@
+.formbg{
+    background: url('../public/bg1.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.signup {
+	.signup__fields {
+		display: flex;
+		justify-content: flex-end;
+		flex-direction: column;
+		gap: 24px;
+		/* height: 580px; */
+		margin-bottom: 8px;
+	}
+	.form-button {
+		margin-top: 20px;
+	}
+	& > .green {
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
