@@ -4,12 +4,13 @@ import './MobileNumberForm.scss';
 
 const MobileNumberForm = ({ onMobileSubmit }) => {
   const [mobile, setMobile] = useState('');
+  const url = process.env.REACT_APP_BACKEND_URL;
 
   const handleMobileSubmit = async (e) => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:8000/user/checkPayment', { mobile });
+      const response = await axios.post(`${url}/user/checkPayment`, { mobile });
       const responseData = response.data;
 
       if (responseData.hasPaid) {
