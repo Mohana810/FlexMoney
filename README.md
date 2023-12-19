@@ -53,7 +53,7 @@ The Backend uses the following libraries
 
 The architecture of the Application is as follows:
 
-![Architecture](https://github.com/Mohana810/FlexMoney/assets/79496726/4014502f-9ed6-4495-86aa-543cd0fdcf00)
+<a href="https://drive.google.com/uc?export=view&id=1Ea6vobQYLQW7KXYsioYCnBNKUPsuyDNH"><img src="https://drive.google.com/uc?export=view&id=1Ea6vobQYLQW7KXYsioYCnBNKUPsuyDNH" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
 
 ## ER Diagram
