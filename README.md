@@ -60,6 +60,6 @@ The architecture of the Application is as follows:
 
 The ER Diagram and Table for the Database are as follows:
 
-![ER_Diagram](<Link>)
+<a href="https://drive.google.com/uc?export=view&id=1VIn0DezG8RrANvRsYoP98Au9A8QFoYn6"><img src="https://drive.google.com/uc?export=view&id=1VIn0DezG8RrANvRsYoP98Au9A8QFoYn6" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
 ![Table](<Link>)
