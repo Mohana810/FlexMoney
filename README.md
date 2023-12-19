@@ -3,10 +3,9 @@
 This is the Assignment for Flexmoney Internship.
 
 ### Hosted Link
-```
 Frontend - https://yogaapp-5wn3.onrender.com/
+<br />
 Backend - https://yogaappbackend.onrender.com/
-```
 
 ## Usage
 
