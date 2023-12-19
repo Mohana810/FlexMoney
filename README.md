@@ -53,7 +53,7 @@ The Backend uses the following libraries
 
 The architecture of the Application is as follows:
 
-![Architecture](<Link>)
+![Architecture](https://drive.google.com/file/d/1Ea6vobQYLQW7KXYsioYCnBNKUPsuyDNH/view?usp=sharing)
 
 ## ER Diagram
 
